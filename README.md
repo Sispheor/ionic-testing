@@ -24,3 +24,23 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+
+### Run on local webserver
+Use this command to deploy localy and test in browser
+```
+/home/nico/Android
+```
+
+### Run in Android device
+Check the device is reconized
+```
+cd /Android/Sdk/platform-tools
+./adb device
+```
+
+Compile and run
+```
+ionic cordova run android
+```
+
+
